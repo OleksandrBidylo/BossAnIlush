@@ -34,6 +34,8 @@ const AnotherSpin = () => {
     speed: 500,
     focusOnSelect: true,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
   };

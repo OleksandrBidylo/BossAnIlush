@@ -29,17 +29,19 @@ const Team = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "30px",
+    centerPadding: "1px",
     slidesToShow: 3,
     speed: 500,
     focusOnSelect: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
   };
 
   return (
-    <div className="w-full relative mb-52 border border-black p-3 bg-black  ">
+    <div className="w-full relative mb-52   p-3   ">
       <h3 className="flex justify-center mb-2 text-3xl ">Наша команда</h3>
       <Slider {...settings}>
         <div className="flex flex-col items-center px-2">
