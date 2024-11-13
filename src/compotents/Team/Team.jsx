@@ -41,10 +41,12 @@ const Team = () => {
   };
 
   return (
-    <div className="w-full relative mb-52   p-3   ">
-      <h3 className="flex justify-center mb-2 text-3xl ">Наша команда</h3>
+    <div className="w-full relative mb-52   p-3  font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl">
+      <h3 className="flex justify-center mb-10 text-3xl font-semibold">
+        Наша команда
+      </h3>
       <Slider {...settings}>
-        <div className="flex flex-col items-center px-2">
+        <div className="flex flex-col items-center px-2 ">
           <img
             src="https://cdn.openart.ai/published/dTDFu1ONGEsJFtqRrAEn/hogwKyPE_-Ftf_1024.webp"
             className="transition-transform transform duration-300 ease-in-out"

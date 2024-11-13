@@ -35,7 +35,7 @@ const OrderForm = () => {
   }
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 min-h-screen font-custom">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Оформите заказ !</h1>
@@ -90,14 +90,14 @@ const OrderForm = () => {
                 </Field>
               </div>
               <div className="form-control">
-                <label className="label">
-                  <span className="label-text">Подробнее об заказе</span>
+                <label className="label ">
+                  <span className="label-text ">Подробнее об заказе</span>
                 </label>
                 <Field
                   name="area"
                   as="textarea"
                   placeholder="Введите заказ"
-                  className="input input-bordered"
+                  className="input input-bordered pt-2"
                   required
                 />
               </div>

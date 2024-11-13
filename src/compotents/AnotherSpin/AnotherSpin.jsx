@@ -41,8 +41,10 @@ const AnotherSpin = () => {
   };
 
   return (
-    <div className="w-full relative mb-52">
-      <h3 className="flex justify-center mb-2 text-3xl">Пример объектов</h3>
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl ">
+      <h3 className="flex justify-center mb-10 text-3xl font-semibold">
+        Пример объектов
+      </h3>
       <Slider {...settings}>
         <div className="flex flex-col items-center px-2">
           <img

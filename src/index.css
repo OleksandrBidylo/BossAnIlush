@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Commissioner";
-  src: url("/src/assets/fonts/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf")
+  font-family: "Comfortaa";
+  src: url("/src/assets/fonts/Comfortaa-VariableFont_wght.ttf")
     format("truetype");
 
   font-weight: 400;
@@ -14,8 +14,8 @@
 
 .custom-prev-arrow,
 .custom-next-arrow {
-  background-color: #75b875; /* Пример фона */
-  color: black; /* Белый текст */
+  background-color: #75b875;
+  color: black;
   border: none;
   padding: 10px;
 
@@ -57,3 +57,6 @@ footer {
 /*scroller 
 
 /* Общий стиль для полосы прокрутки */
+body {
+  font-family: "Montserrat", sans-serif;
+}

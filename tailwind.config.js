@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["Commissioner", "sans-serif"],
+        custom: ["Comfortaa", "sans-serif"],
       },
     },
   },

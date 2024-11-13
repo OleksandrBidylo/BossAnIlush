@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const OurServices = () => {
   return (
-    <div>
+    <div className="font-custom">
       <ul className="grid grid-cols-3 gap-12 mt-20 ml-52 mb-20">
         <li>
           <div className="card card-compact bg-base-100 w-96 shadow-xl">

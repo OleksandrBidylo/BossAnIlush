@@ -80,7 +80,7 @@ const Home = () => {
       )}
 
       <motion.div
-        className="hero min-h-screen font-custom"
+        className="hero min-h-screen font-custom shadow-2xl shadow-gray"
         style={{ backgroundImage: `url(${backgroundImage})` }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -90,7 +90,7 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <motion.h1
-              className="mb-5 text-5xl font-bold"
+              className="mb-5 text-5xl font-bold font-custom"
               initial="hidden"
               whileInView="visible"
               variants={fadeInUp}
@@ -105,8 +105,11 @@ const Home = () => {
             >
               {texts[currentText]}
             </motion.p>
-            <NavLink className="btn   btn-primary" to="/order">
-              Заказать
+            <NavLink
+              className="btn font-semibold text-xl btn-primary"
+              to="/order"
+            >
+              Заказать!
             </NavLink>
           </div>
         </div>

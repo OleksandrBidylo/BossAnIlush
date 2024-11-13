@@ -1,10 +1,8 @@
 const Advantages = () => {
   return (
-    <div className=" font-custom font-semibold text-black pt-52 pb-52 items-center flex flex-col min-h-96">
-      <p className="flex justify-center text-3xl mb-16 text-white">
-        Наши преимущества
-      </p>
-      <ul className="flex gap-2">
+    <div className=" font-custom font-semibold  mt-52 mb-52 items-center flex flex-col min-h-96 shadow-2xl shadow-black py-20 rounded-xl ">
+      <p className="flex justify-center text-3xl mb-16 ">Наши преимущества</p>
+      <ul className="flex gap-10 text-black ">
         <li>
           <div className="flex flex-col mx-auto w-96 min-h-96">
             <div className="collapse collapse-arrow bg-primary ">
