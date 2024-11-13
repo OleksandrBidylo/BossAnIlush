@@ -8,6 +8,7 @@ import AdminPg from "./pages/AdminPg";
 import NotFound from "./pages/NotFound";
 import Succes from "./pages/Succes";
 import OurServices from "./pages/OurServices";
+import Burger from "./compotents/Burger/Burger";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/order" element={<OrderForm />} />
         <Route path="/succes" element={<Succes />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/bg-m" element={<Burger />} />
       </Routes>
     </div>
   );

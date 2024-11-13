@@ -60,7 +60,7 @@ const Home = () => {
     >
       {/* Кнопка для звонка */}
       <a
-        className="fixed top-2/4 left-3 btn btn-circle text-2xl btn-primary"
+        className="fixed hidden lg:flex top-2/4 left-3 btn btn-circle text-2xl btn-primary"
         href="tel:+1111111"
       >
         <IoCallSharp />
@@ -73,7 +73,7 @@ const Home = () => {
           smooth={true}
           duration={500}
           offset={-100}
-          className="fixed top-2/3 left-3 btn btn-circle text-2xl btn-primary"
+          className="fixed hidden lg:flex top-2/3 left-3 btn btn-circle text-2xl btn-primary"
         >
           <FaArrowUp />
         </Link>

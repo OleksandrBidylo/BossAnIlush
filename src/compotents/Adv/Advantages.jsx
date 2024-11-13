@@ -2,9 +2,9 @@ const Advantages = () => {
   return (
     <div className=" font-custom font-semibold  mt-52 mb-52 items-center flex flex-col min-h-96 shadow-2xl shadow-black py-20 rounded-xl ">
       <p className="flex justify-center text-3xl mb-16 ">Наши преимущества</p>
-      <ul className="flex gap-10 text-black ">
+      <ul className="flex flex-wrap lg:flex-row gap-10 text-black  justify-center">
         <li>
-          <div className="flex flex-col mx-auto w-96 min-h-96">
+          <div className="flex flex-col mx-auto w-96 lg:min-h-96">
             <div className="collapse collapse-arrow bg-primary ">
               <input type="radio" name="my-accordion-2" defaultChecked />
               <div className="collapse-title text-xl font-medium">
@@ -44,7 +44,7 @@ const Advantages = () => {
           </div>
         </li>
         <li>
-          <div className="flex flex-col mx-auto w-96">
+          <div className="flex flex-col  lg:px-auto w-96">
             <div className="collapse collapse-arrow bg-primary">
               <input type="radio" name="my-accordion-2" defaultChecked />
               <div className="collapse-title text-xl font-medium">
