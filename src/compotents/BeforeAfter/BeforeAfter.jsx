@@ -1,7 +1,7 @@
 const BeforeAfter = () => {
   return (
     <div className="mt-52 mb-52 shadow-2xl shadow-black p-20 rounded-xl">
-      <p className="flex justify-center mb-2 text-3xl p-4  font-custom font-semibold">
+      <p className="flex justify-center mb-16 text-3xl p-4  font-custom font-semibold">
         Окна до нас и после
       </p>
       <div className="diff aspect-[2/1] ">

@@ -82,11 +82,11 @@ const OrderForm = () => {
                   input-bordered"
                   required
                 >
-                  <option value="Минет">Минет</option>
-                  <option value="Анал">Анал</option>
-                  <option value="Классика">Классика</option>
-                  <option value="Копро">Копро</option>
-                  <option value="Фистинг">Фистинг</option>
+                  <option value="Мойка окон">Мойка окон</option>
+                  <option value="Мойка окон">Мойка окон</option>
+                  <option value="Мойка окон">Мойка окон</option>
+                  <option value="Мойка окон">Мойка окон</option>
+                  <option value="Мойка окон">Мойка окон</option>
                 </Field>
               </div>
               <div className="form-control">

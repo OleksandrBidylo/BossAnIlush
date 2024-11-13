@@ -42,7 +42,7 @@ const AnotherSpin = () => {
 
   return (
     <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl ">
-      <h3 className="flex justify-center mb-10 text-3xl font-semibold">
+      <h3 className="flex justify-center mb-16 text-3xl font-semibold">
         Пример объектов
       </h3>
       <Slider {...settings}>
@@ -51,21 +51,21 @@ const AnotherSpin = () => {
             src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
             className="transition-transform transform duration-300 ease-in-out"
           />
-          <p className="text-center bg-primary text-black">Какашкин домик</p>
+          <p className="text-center bg-neutral">Ашан</p>
         </div>
         <div className="flex flex-col items-center px-2">
           <img
             src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
             className="transition-transform transform duration-300 ease-in-out"
           />
-          <p className="text-center bg-primary text-black">Какашкин домик</p>
+          <p className="text-center bg-neutral">Гошан</p>
         </div>
         <div className="flex flex-col items-center px-2">
           <img
             src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
             className="transition-transform transform duration-300 ease-in-out"
           />
-          <p className="text-center bg-primary text-black">Какашкин домик</p>
+          <p className="text-center bg-neutral">Рошан</p>
         </div>
         {/* Добавьте дополнительные слайды здесь */}
       </Slider>
