@@ -10,6 +10,9 @@ import AnotherSpin from "../compotents/AnotherSpin/AnotherSpin";
 import BeforeAfter from "../compotents/BeforeAfter/BeforeAfter";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import BeforeAfterMob from "../compotents/BeforeAfter/BeforeAfterMob";
+import TeamMob from "../compotents/Team/TeamMob";
+import AnotherSpinMob from "../compotents/AnotherSpin/AnotherSpinMob";
 
 const Home = () => {
   const [currentText, setCurrentText] = useState(0);
@@ -124,13 +127,34 @@ const Home = () => {
           <Modal />
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
-          <Team />
+          <div className="hidden lg:block">
+            <Team />
+          </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
-          <BeforeAfter />
+          <div className="block lg:hidden">
+            <TeamMob />
+          </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
-          <AnotherSpin />
+          <div className="hidden lg:block">
+            <BeforeAfter />
+          </div>
+        </motion.div>
+        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
+          <div className="block lg:hidden">
+            <BeforeAfterMob />
+          </div>
+        </motion.div>
+        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
+          <div className="hidden lg:block">
+            <AnotherSpin />
+          </div>
+        </motion.div>
+        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
+          <div className="block lg:hidden">
+            <AnotherSpinMob />
+          </div>
         </motion.div>
       </div>
     </motion.div>

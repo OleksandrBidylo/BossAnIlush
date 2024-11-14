@@ -24,13 +24,13 @@ const CustomNextArrow = (props) => {
   );
 };
 
-const AnotherSpinMob = () => {
+const AnotherSpin = () => {
   const settings = {
     className: "center",
     centerMode: true,
     infinite: true,
     centerPadding: "1px",
-    slidesToShow: 3,
+    slidesToShow: 1,
     speed: 500,
     focusOnSelect: true,
     slidesToScroll: 1,
@@ -41,8 +41,8 @@ const AnotherSpinMob = () => {
   };
 
   return (
-    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl ">
-      <h3 className="flex justify-center mb-16 text-3xl font-semibold">
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-10 px-24 rounded-xl ">
+      <h3 className="flex justify-center mb-10 text-2xl font-semibold text-center">
         Пример объектов
       </h3>
       <Slider {...settings}>
@@ -73,4 +73,4 @@ const AnotherSpinMob = () => {
   );
 };
 
-export default AnotherSpinMob;
+export default AnotherSpin;
