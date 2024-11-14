@@ -60,7 +60,7 @@ const Home = () => {
     >
       {/* Кнопка для звонка */}
       <a
-        className="fixed hidden lg:flex top-2/4 left-3 btn btn-circle text-2xl btn-primary"
+        className="fixed hidden  top-2/4 left-3 btn btn-circle text-2xl btn-primary"
         href="tel:+1111111"
       >
         <IoCallSharp />
@@ -80,7 +80,7 @@ const Home = () => {
       )}
 
       <motion.div
-        className="hero min-h-screen font-custom shadow-2xl shadow-gray"
+        className="hero min-h-screen  font-custom shadow-2xl shadow-gray"
         style={{ backgroundImage: `url(${backgroundImage})` }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -98,7 +98,7 @@ const Home = () => {
               BossAnAlp
             </motion.h1>
             <motion.p
-              className="mb-5 font-custom font-bold text-xl  min-w-96 min-h-16"
+              className="mb-5 font-custom font-bold text-xl  lg:min-w-96 min-h-16"
               initial="hidden"
               whileInView="visible"
               variants={fadeInUp}

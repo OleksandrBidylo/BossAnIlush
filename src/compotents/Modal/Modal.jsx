@@ -10,9 +10,9 @@ const Modal = () => {
   }, []);
 
   return (
-    <div className="font-custom">
+    <div className="font-custom   ">
       <dialog id="my_modal_1" className="modal">
-        <div className="modal-box">
+        <div className="  modal-box ">
           <h3 className="font-bold text-lg text-primary">Внимание!</h3>
           <p className="py-4">первая чото там бла-бла бесплатно</p>
           <div className="modal-action">
