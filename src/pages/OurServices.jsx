@@ -14,7 +14,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
@@ -33,7 +33,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха</h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
@@ -52,7 +52,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
@@ -71,7 +71,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
@@ -90,7 +90,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
@@ -109,7 +109,7 @@ const OurServices = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
-              <p>Пиздато чистим, хули сказать</p>
+              <p>чистка бла бла бла бла</p>
               <div className="card-actions justify-end">
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
