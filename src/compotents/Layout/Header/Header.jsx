@@ -36,7 +36,7 @@ const Header = () => {
                 className="flex items-center gap-1 btn font-bold btn-primary text-2xl"
               >
                 <FaPhoneAlt />
-                Позвоните нам !
+                Свяжитесь с нами !
               </a>
               <div className="flex gap-5 mr-10">
                 <a className="btn text-3xl " href="http://" target="_blank">
