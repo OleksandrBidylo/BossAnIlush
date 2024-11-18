@@ -23,8 +23,14 @@ const Footer = () => {
         <div className="flex flex-col">
           <p>Наши соц-сети</p>
           <div className="flex gap-2">
-            <FaTelegram />
-            <FaYoutube />
+            <a target="_blank" href="">
+              {" "}
+              <FaTelegram />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@BossAnAlp">
+              {" "}
+              <FaYoutube />
+            </a>
           </div>
         </div>
         <div className="text-black">

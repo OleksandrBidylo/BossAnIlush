@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 const OurServices = () => {
   return (
     <div className="font-custom">
-      <ul className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 mt-20 lg:ml-52 mb-20  gap-10  ">
+      <ul className="grid grid-cols-1 lg:grid-cols-2 lg:ml-32 2xl:grid-cols-3 2xl:gap-12 mt-20 2xl:ml-52 mb-20  gap-10  ">
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -28,7 +28,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -51,7 +51,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -74,7 +74,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -97,7 +97,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -120,7 +120,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -143,7 +143,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
@@ -166,7 +166,7 @@ const OurServices = () => {
           </div>
         </li>
         <li>
-          <div className="card card-compact bg-base-100 lg:w-96 shadow-xl w-72 ml-11">
+          <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
                 src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
