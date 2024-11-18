@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col items-center ">
           <p>Наши соц-сети</p>
           <div className="flex gap-2">
-            <a target="_blank" href="">
+            <a target="_blank" href="https://t.me/b0ssanalp">
               {" "}
               <FaTelegram />
             </a>

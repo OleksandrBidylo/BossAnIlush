@@ -38,8 +38,10 @@ const OrderForm = () => {
     <div className="hero bg-base-200 min-h-screen font-custom">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold">Оформите заказ !</h1>
-          <p className="py-6">
+          <h1 className="text-2xl  2xl:text-5xl font-bold text-primary">
+            Оформите заказ !
+          </h1>
+          <p className="text-sm py-2  2xl:py-6">
             когда вы отправляете заявку вы подтверждаете, что ваши данные будут
             переданы администратору!
           </p>
@@ -55,7 +57,7 @@ const OrderForm = () => {
                   name="name"
                   type="text"
                   placeholder="Введите имя"
-                  className="input input-bordered"
+                  className="input input-bordered text-sm 2xl:text-lg w-64 2xl:w-80"
                   required
                 />
               </div>
@@ -67,7 +69,7 @@ const OrderForm = () => {
                   name="phone"
                   type="tel"
                   placeholder="Введите номер телефона"
-                  className="input input-bordered"
+                  className="input input-bordered text-sm 2xl:text-lg w-64 2xl:w-80"
                   required
                 />
               </div>
@@ -79,7 +81,7 @@ const OrderForm = () => {
                   as="select"
                   name="dropdown"
                   className="input
-                  input-bordered text-sm"
+                  input-bordered text-xs  lg:text-sm  w-64 2xl:w-80"
                   required
                 >
                   <option value="Промышленная мойка окон">
@@ -110,14 +112,17 @@ const OrderForm = () => {
                   name="area"
                   as="textarea"
                   placeholder="Введите заказ"
-                  className="input input-bordered pt-2"
+                  className="input input-bordered pt-2 text-sm 2xl:text-lg w-64 2xl:w-80"
                   required
                 />
               </div>
 
               <Field name="timestamp" type="hidden" />
               <div className="form-control mt-6">
-                <button type="submit" className="btn btn-primary">
+                <button
+                  type="submit"
+                  className="btn btn-primary text-sm 2xl:text-lg"
+                >
                   Отправить
                 </button>
               </div>

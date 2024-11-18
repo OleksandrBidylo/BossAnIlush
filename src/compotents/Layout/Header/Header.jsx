@@ -39,7 +39,11 @@ const Header = () => {
                 Свяжитесь с нами !
               </NavLink>
               <div className="flex gap-5 mr-10">
-                <a className="btn text-3xl " href="http://" target="_blank">
+                <a
+                  className="btn text-3xl "
+                  href="https://t.me/b0ssanalp"
+                  target="_blank"
+                >
                   <FaTelegram />
                 </a>
                 <a
