@@ -1,26 +1,14 @@
-import { Field, Form, Formik } from "formik";
-import { useState } from "react";
 import { FaTelegram, FaYoutube } from "react-icons/fa";
-import { SiDota2 } from "react-icons/si";
-import { Navigate } from "react-router-dom";
 
 const Footer = () => {
-  const [password, setPassword] = useState("");
-  const initialValues = {
-    password: "",
-  };
-  const onSubmit = (values, options) => {
-    setPassword(values.password);
-    options.resetForm();
-  };
   return (
-    <div>
-      <footer className="footer bg-neutral text-white p-10 justify-between relative">
-        <div>
-          <SiDota2 />
+    <div className="font-custom 2xl:text-2xl">
+      <footer className="flex bg-neutral text-white p-10 justify-center 2xl:justify-between items-center">
+        <div className="hidden 2xl:flex items-center font-bold">
+          <img className="w-10" src="/src/assets/images/logoNg.png" />
           <p>BossAnAlp</p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center ">
           <p>Наши соц-сети</p>
           <div className="flex gap-2">
             <a target="_blank" href="">
@@ -33,35 +21,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="text-black">
-          <button
-            className="btn"
-            onClick={() => document.getElementById("my_modal_3").showModal()}
-          >
-            для админа
-          </button>
-          <dialog id="my_modal_3" className="modal">
-            <div className="modal-box">
-              <form method="dialog">
-                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                  ✕
-                </button>
-              </form>
-              <h3 className="font-bold text-lg">Введите пароль</h3>
-              <Formik initialValues={initialValues} onSubmit={onSubmit}>
-                <Form>
-                  <Field
-                    name="password"
-                    type="password"
-                    className="border border-black"
-                  />
-                  <button type="submit">Отправить</button>
-                  {password === "48KNsK9vx4" && <Navigate to="/admin-stuff" />}
-                </Form>
-              </Formik>
-            </div>
-          </dialog>
-        </div>
+        <div className="text-black"></div>
       </footer>
     </div>
   );

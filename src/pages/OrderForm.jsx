@@ -79,14 +79,27 @@ const OrderForm = () => {
                   as="select"
                   name="dropdown"
                   className="input
-                  input-bordered"
+                  input-bordered text-sm"
                   required
                 >
-                  <option value="Мойка окон">Мойка окон</option>
-                  <option value="Мойка окон">Мойка окон</option>
-                  <option value="Мойка окон">Мойка окон</option>
-                  <option value="Мойка окон">Мойка окон</option>
-                  <option value="Мойка окон">Мойка окон</option>
+                  <option value="Промышленная мойка окон">
+                    Промышленная мойка окон
+                  </option>
+                  <option value="Частная мойка окон">Частная мойка окон</option>
+                  <option value="Мойка фасада">Мойка фасада</option>
+                  <option value="Украшение коттеджей">
+                    Украшение коттеджей
+                  </option>
+                  <option value="Очистка кровли от мха">
+                    Очистка кровли от мха
+                  </option>
+                  <option value="Очистка кровли от снега и наледи">
+                    Очистка кровли от снега и наледи
+                  </option>
+                  <option value="Подготовка водостоков к зиме">
+                    Подготовка водостоков к зиме
+                  </option>
+                  <option value="Удаление сосулек">Удаление сосулек</option>
                 </Field>
               </div>
               <div className="form-control">
