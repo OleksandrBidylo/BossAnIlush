@@ -52,7 +52,7 @@ const Team = () => {
             className="transition-transform transform duration-300 ease-in-out "
           />
           <div className="flex flex-col text-center bg-neutral  ">
-            <p className="text-center ">Илья</p> <p>опыт: 52</p>
+            <p className="text-center  border-b ">Илья</p> <p>опыт: 52</p>
           </div>
         </div>
         <div className="flex flex-col items-center px-2">
@@ -61,7 +61,7 @@ const Team = () => {
             className="transition-transform transform duration-300 ease-in-out"
           />
           <div className="flex flex-col text-center bg-neutral">
-            <p className="text-center">Владимир</p> <p>опыт: 52</p>
+            <p className="text-center border-b">Владимир</p> <p>опыт: 52</p>
           </div>
         </div>
         <div className="flex flex-col items-center px-2 ">
@@ -70,7 +70,7 @@ const Team = () => {
             className="transition-transform transform duration-300 ease-in-out"
           />
           <div className="flex flex-col text-center bg-neutral">
-            <p className="text-center ">Тимофей</p> <p>опыт: 52</p>
+            <p className="text-center border-b ">Тимофей</p> <p>опыт: 52</p>
           </div>
         </div>
         <div className="flex flex-col items-center px-2">
@@ -79,7 +79,7 @@ const Team = () => {
             className="transition-transform transform duration-300 ease-in-out"
           />
           <div className="flex flex-col text-center bg-neutral">
-            <p className="text-center ">Вячеслав</p> <p>опыт: 52</p>
+            <p className="text-center border-b ">Вячеслав</p> <p>опыт: 52</p>
           </div>
         </div>
       </Slider>
