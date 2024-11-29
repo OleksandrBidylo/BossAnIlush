@@ -19,7 +19,8 @@ const OurServices = () => {
                 с использованием специализированного оборудования и эффективных
                 методов для достижения высокого качества результата.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -42,7 +43,8 @@ const OurServices = () => {
                 домах, квартирах и на дачах с учетом особенностей каждого
                 объекта для обеспечения чистоты и комфорта.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -65,7 +67,8 @@ const OurServices = () => {
                 различных видов загрязнений с применением современных технологий
                 для поддержания презентабельного внешнего вида.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -88,7 +91,8 @@ const OurServices = () => {
                 частного дома, что придает индивидуальность и эстетическую
                 привлекательность зданию.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -111,7 +115,8 @@ const OurServices = () => {
                 помогает предотвратить их разрушительное воздействие на
                 материалы покрытия.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -134,7 +139,8 @@ const OurServices = () => {
                 снежных и ледяных отложений с крыши для предотвращения
                 повреждений и протечек.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -157,7 +163,8 @@ const OurServices = () => {
                 предотвращения замерзания воды и образования ледяных пробок в
                 зимний период.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -180,7 +187,8 @@ const OurServices = () => {
                 крыш и водостоков для обеспечения безопасности и предотвращения
                 возможных повреждений.
               </p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end flex items-center gap-2 ">
+                <div className="btn ">от 4 рублей</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>

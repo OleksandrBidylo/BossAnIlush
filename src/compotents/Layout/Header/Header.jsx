@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="font-custom">
-      <header className="bg-neutral text-neutral-content  relative p-3 2xl:p-5">
-        <div className="flex items-center justify-between">
+      <header className="bg-neutral text-neutral-content  relative p-3 2xl:p-5 ">
+        <div className="flex items-center justify-between  max-h-14 ">
           <div className=" flex 2xl:gap-5 2xl:ml-10 2xl:font-semibold 2xl:text-2xl items-center">
             <NavLink
               className="hidden 2xl:flex btn text-xl btn-primary"
@@ -19,8 +19,8 @@ const Header = () => {
             </a>
           </div>
 
-          <NavLink to="/" className="text-xl 2xl:text-4xl 2xl:ml-72 ">
-            BossAnAlp
+          <NavLink to="/" className="    2xl:pl-56  flex ">
+            <img src="https://i.imgur.com/XSJsiRS.png" width="300" />
           </NavLink>
 
           <div>
