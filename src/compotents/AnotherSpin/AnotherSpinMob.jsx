@@ -2,72 +2,92 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
-import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
-
-// Кастомная левая стрелка
-const CustomPrevArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <button className="custom-prev-arrow" onClick={onClick}>
-      <FaLongArrowAltLeft />
-    </button>
-  );
-};
-
-// Кастомная правая стрелка
-const CustomNextArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <button className="custom-next-arrow" onClick={onClick}>
-      <FaLongArrowAltRight />
-    </button>
-  );
-};
 
 const AnotherSpin = () => {
   const settings = {
     className: "center",
-    centerMode: true,
+
     infinite: true,
-    centerPadding: "1px",
+
     slidesToShow: 1,
     speed: 500,
     focusOnSelect: true,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+    arrows: false,
+    adaptiveHeight: true,
   };
 
   return (
-    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-10 px-24 rounded-xl ">
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-10 px-24 rounded-xl max-w-screen-lg">
       <h3 className="flex justify-center mb-10 text-2xl font-semibold text-center">
         Пример объектов
       </h3>
       <Slider {...settings}>
-        <div className="flex flex-col items-center px-2">
+        <div className="flex flex-col items-center px-2 ">
           <img
-            src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
-            className="transition-transform transform duration-300 ease-in-out"
+            src="https://i.imgur.com/QqmXTb9.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
           />
           <p className="text-center bg-neutral">Ашан</p>
         </div>
         <div className="flex flex-col items-center px-2">
           <img
-            src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
-            className="transition-transform transform duration-300 ease-in-out"
+            src="https://i.imgur.com/eTQeH10.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
           />
           <p className="text-center bg-neutral">Гошан</p>
         </div>
         <div className="flex flex-col items-center px-2">
           <img
-            src="https://outsignal.com/edit/uploads/page/106/5bb365b1347b6.jpg"
-            className="transition-transform transform duration-300 ease-in-out"
+            src="https://i.imgur.com/ia4yHva.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
           />
           <p className="text-center bg-neutral">Рошан</p>
         </div>
-        {/* Добавьте дополнительные слайды здесь */}
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/HsYFUO8.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/4lJUm6Q.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/jlcQWoE.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/cUukqMb.jpeg"
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/l87LvTO.jpeg "
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
+        <div className="flex flex-col items-center px-2">
+          <img
+            src="https://i.imgur.com/8iBvguo.jpeg "
+            className="transition-transform transform duration-300 ease-in-out h-32 w-52"
+          />
+          <p className="text-center bg-neutral">Рошан</p>
+        </div>
       </Slider>
     </div>
   );

@@ -8,8 +8,8 @@ const OurServices = () => {
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
+                src="https://i.imgur.com/U8Mr53V.jpeg"
+                className="h-96 w-96"
               />
             </figure>
             <div className="card-body">
@@ -20,7 +20,7 @@ const OurServices = () => {
                 методов для достижения высокого качества результата.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 20 руб</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -32,8 +32,8 @@ const OurServices = () => {
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
+                src="https://i.imgur.com/Jnf3YF8.jpeg"
+                className="h-96 w-96"
               />
             </figure>
             <div className="card-body">
@@ -44,7 +44,7 @@ const OurServices = () => {
                 объекта для обеспечения чистоты и комфорта.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 35 руб</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -56,8 +56,8 @@ const OurServices = () => {
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
+                src="https://i.imgur.com/5JjeDxG.jpeg"
+                className="w-96 h-96"
               />
             </figure>
             <div className="card-body">
@@ -68,7 +68,7 @@ const OurServices = () => {
                 для поддержания презентабельного внешнего вида.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 20 руб</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -80,8 +80,8 @@ const OurServices = () => {
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
               <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
+                src="https://i.imgur.com/UasLR5i.jpeg"
+                className="w-96 h-96"
               />
             </figure>
             <div className="card-body">
@@ -92,7 +92,7 @@ const OurServices = () => {
                 привлекательность зданию.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">цена договорная</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -103,10 +103,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
-              />
+              <img src="https://i.imgur.com/ekM3HMx.jpeg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
@@ -116,7 +113,7 @@ const OurServices = () => {
                 материалы покрытия.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">50 руб/м²</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -127,10 +124,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
-              />
+              <img src="https://i.imgur.com/HDxWBJX.jpeg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от снега и наледи </h2>
@@ -140,7 +134,7 @@ const OurServices = () => {
                 повреждений и протечек.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 25 руб/м²</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -151,10 +145,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
-              />
+              <img src="https://i.imgur.com/veUmIMW.jpeg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Подготовка водостоков к зиме </h2>
@@ -164,7 +155,7 @@ const OurServices = () => {
                 зимний период.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 350 руб </div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -175,10 +166,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://alpindustriya.com.ua/wp-content/uploads/2021/05/moyka-kryshi-chastnogo-doma-768x576.jpg"
-                alt="Shoes"
-              />
+              <img src="https://i.imgur.com/BkpcQPf.jpeg" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Удаление сосулек </h2>
@@ -188,7 +176,7 @@ const OurServices = () => {
                 возможных повреждений.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 4 рублей</div>
+                <div className="btn ">от 40 руб</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
