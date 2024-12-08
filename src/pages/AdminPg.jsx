@@ -5,35 +5,53 @@ import { delelteInfo, fetchInfo } from "../redux/ops";
 import { Field, Form, Formik } from "formik";
 
 const AdminPg = () => {
-  const [password, setPassword] = useState("");
+  const [isPasswordVerified, setIsPasswordVerified] = useState(false);
+
   const initialValues = {
     password: "",
   };
+
   const onSubmit = (values, options) => {
-    setPassword(values.password);
+    if (values.password === "g9T7pUjL62") {
+      setIsPasswordVerified(true);
+      localStorage.setItem("isPasswordVerified", "true");
+    }
     options.resetForm();
   };
+
   const dispatch = useDispatch();
   const userInfo = useSelector(selectInfo);
+
   useEffect(() => {
-    dispatch(fetchInfo());
-  }, [dispatch]);
+    const storedVerification = localStorage.getItem("isPasswordVerified");
+    if (storedVerification === "true") {
+      setIsPasswordVerified(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (isPasswordVerified) {
+      dispatch(fetchInfo());
+    }
+  }, [dispatch, isPasswordVerified]);
 
   return (
     <div>
-      <div className="flex justify-center p-52">
-        <Formik initialValues={initialValues} onSubmit={onSubmit}>
-          <Form className="flex gap-5">
-            <Field name="password" type="password" />
-            <button type="submit" className="btn">
-              войти
-            </button>
-          </Form>
-        </Formik>
-      </div>
+      {!isPasswordVerified && (
+        <div className="flex justify-center p-52">
+          <Formik initialValues={initialValues} onSubmit={onSubmit}>
+            <Form className="flex gap-5">
+              <Field name="password" type="password" />
+              <button type="submit" className="btn">
+                войти
+              </button>
+            </Form>
+          </Formik>
+        </div>
+      )}
 
-      {password === "g9T7pUjL62" && (
-        <div className="text-xl font-custom  text-white pl-5">
+      {isPasswordVerified && (
+        <div className="text-xl font-custom text-white pl-5">
           <h2 className="text-3xl flex justify-center pb-5">
             Информация для админа
           </h2>
@@ -64,7 +82,6 @@ const AdminPg = () => {
                 </p>
                 <input type="checkbox" />
 
-                {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <button
                   className="btn"
                   onClick={() => dispatch(delelteInfo(item.id))}
