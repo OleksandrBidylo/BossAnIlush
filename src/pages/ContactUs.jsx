@@ -55,7 +55,7 @@ const ContactUs = () => {
         >
           <a
             className="flex gap-2 items-center btn btn-primary text-xl"
-            href="/"
+            href="https://t.me/BossAnailp"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +72,7 @@ const ContactUs = () => {
         >
           <a
             className="flex gap-2 items-center btn btn-primary text-xl"
-            href="/"
+            href="https://wa.me/79261380527"
             target="_blank"
             rel="noopener noreferrer"
           >
