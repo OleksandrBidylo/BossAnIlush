@@ -33,7 +33,7 @@ const ContactUs = () => {
           animate="visible"
           variants={listItemVariants}
         >
-          <a href="tel:+1234567890">+1 (234) 567-890</a>
+          <a href="tel:+79261380527">+7 (926) 138-05-27</a>
         </motion.li>
 
         <motion.li
@@ -43,7 +43,7 @@ const ContactUs = () => {
           animate="visible"
           variants={listItemVariants}
         >
-          <a href="tel:+1234567890">+1 (234) 567-890</a>
+          <a href="tel:+79266530581">+7 (926) 653-05-81</a>
         </motion.li>
 
         <motion.li

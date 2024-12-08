@@ -49,7 +49,7 @@ const Burger = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <a href="tel:+111" className="btn btn-primary">
+          <a href="tel:+79261380527" className="btn btn-primary">
             <MdOutlineLocalPhone className="text-xl" /> Позвонить нам
           </a>
         </motion.div>

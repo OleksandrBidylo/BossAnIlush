@@ -14,13 +14,13 @@ const Header = () => {
             >
               Наши услуги
             </NavLink>
-            <a className="hidden 2xl:flex" href="tel:+">
-              +78005553535
+            <a className="hidden 2xl:flex" href="tel:+79261380527">
+              +79261380527
             </a>
           </div>
 
           <NavLink to="/" className="    2xl:pl-56  flex ">
-            <img src="https://i.imgur.com/XSJsiRS.png" width="300" />
+            <img src="https://i.imgur.com/QwPYSmx.png" width="300" />
           </NavLink>
 
           <div>

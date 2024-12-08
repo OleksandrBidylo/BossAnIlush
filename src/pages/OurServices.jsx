@@ -44,7 +44,7 @@ const OurServices = () => {
                 объекта для обеспечения чистоты и комфорта.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 35 руб</div>
+                <div className="btn ">цена договорная </div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
