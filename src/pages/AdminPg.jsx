@@ -1,8 +1,12 @@
 import { useDispatch, useSelector } from "react-redux";
-import { selectInfo } from "../redux/slice";
+import {
+  selectFilteredDataMemo,
+  selectUncompletedInfoMemo,
+} from "../redux/slice";
 import { useEffect, useState } from "react";
-import { delelteInfo, fetchInfo } from "../redux/ops";
+import { delelteInfo, fetchInfo, toggleOrder } from "../redux/ops";
 import { Field, Form, Formik } from "formik";
+import { setFilterValue } from "../redux/filterSlice";
 
 const AdminPg = () => {
   const [isPasswordVerified, setIsPasswordVerified] = useState(false);
@@ -20,8 +24,8 @@ const AdminPg = () => {
   };
 
   const dispatch = useDispatch();
-  const userInfo = useSelector(selectInfo);
-
+  const userInfo = useSelector(selectFilteredDataMemo);
+  const uncomletedInfo = useSelector(selectUncompletedInfoMemo);
   useEffect(() => {
     const storedVerification = localStorage.getItem("isPasswordVerified");
     if (storedVerification === "true") {
@@ -52,9 +56,37 @@ const AdminPg = () => {
 
       {isPasswordVerified && (
         <div className="text-xl font-custom text-white pl-5">
-          <h2 className="text-3xl flex justify-center pb-5">
+          <h2 className="text-3xl flex justify-center pb-5 mt-12">
             Информация для админа
           </h2>
+          <h3 className="flex justify-center gap-2">
+            не принято
+            <span className="text-orange-500 font-bold text-2xl">
+              {uncomletedInfo}
+            </span>
+            заявок
+          </h3>
+          <div className="flex gap-5 p-5 justify-center">
+            <button
+              onClick={() => dispatch(setFilterValue("all"))}
+              className="btn w-52"
+            >
+              все
+            </button>
+            <button
+              onClick={() => dispatch(setFilterValue("completed"))}
+              className="btn w-52"
+            >
+              принятые
+            </button>
+            <button
+              onClick={() => dispatch(setFilterValue("active"))}
+              className="btn w-52"
+            >
+              не принятые
+            </button>
+          </div>
+
           <ul className="grid grid-cols-4 gap-1">
             {userInfo.map((item) => (
               <li
@@ -71,7 +103,7 @@ const AdminPg = () => {
                   услуга: {item.dropdown}
                 </p>
                 <p className="border-b border-black p-2">заказ: {item.area}</p>
-                <p>
+                <p className="border-b border-black p-2">
                   дата:
                   {item.timestamp
                     ? `${item.timestamp.slice(0, 10)} / ${item.timestamp.slice(
@@ -80,8 +112,14 @@ const AdminPg = () => {
                       )}`
                     : "Не указано"}
                 </p>
-                <input type="checkbox" />
-
+                <div className=" flex items-center gap-2 p-2">
+                  заказ принят{" "}
+                  <input
+                    type="checkbox"
+                    checked={item.completed}
+                    onChange={() => dispatch(toggleOrder(item))}
+                  />
+                </div>
                 <button
                   className="btn"
                   onClick={() => dispatch(delelteInfo(item.id))}

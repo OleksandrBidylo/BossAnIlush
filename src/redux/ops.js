@@ -32,3 +32,18 @@ export const delelteInfo = createAsyncThunk(
     }
   }
 );
+
+export const toggleOrder = createAsyncThunk(
+  "toggleOrder",
+  async (body, thunkApi) => {
+    try {
+      const { data } = await axios.put(`usersinfo/${body.id}`, {
+        ...body,
+        completed: !body.completed,
+      });
+      return data;
+    } catch (error) {
+      return thunkApi.rejectWithValue(error.message);
+    }
+  }
+);
