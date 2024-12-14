@@ -48,7 +48,7 @@ const Advantages = () => {
         <li>
           <div className="flex flex-col w-72 lg:px-auto lg:w-96">
             <div className="collapse collapse-arrow bg-primary">
-              <input type="radio" name="my-accordion-2" defaultChecked />
+              <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">
                 Индивидуальный подход
               </div>
@@ -88,7 +88,7 @@ const Advantages = () => {
         <li>
           <div className="flex flex-col mx-auto w-72 lg:w-96">
             <div className="collapse collapse-arrow bg-primary">
-              <input type="radio" name="my-accordion-2" defaultChecked />
+              <input type="radio" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">
                 Доступность услуг в любое время суток
               </div>
