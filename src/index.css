@@ -65,3 +65,77 @@ body {
   max-width: 300px;
   min-height: 80px;
 }
+
+/* Spin.module.css */
+.slider-dots {
+  margin-left: 150px;
+  color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; /* Сделать их в ряд */
+
+  z-index: 2;
+}
+
+/* Это уточнит, как вести себя li */
+.slider-dots li {
+  margin: 0; /* Убираем отступы для каждого элемента */
+  display: inline-block; /* Принудительное поведение inline-block */
+}
+
+/* Эти стили уже правильные, и они для точек */
+.slider-dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 7px;
+}
+
+.slider-dots .slick-active button {
+  background-color: #9ad69a; /* Цвет активной точки */
+  transform: scale(1.3); /* Активная точка чуть больше */
+}
+
+/* точки для десктопа */
+
+.slider-dots-desk {
+  margin-left: 473px;
+  color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; /* Сделать их в ряд */
+
+  z-index: 2;
+}
+
+/* Это уточнит, как вести себя li */
+.slider-dots-desk li {
+  margin: 0; /* Убираем отступы для каждого элемента */
+  display: inline-block; /* Принудительное поведение inline-block */
+}
+
+/* Эти стили уже правильные, и они для точек */
+.slider-dots-desk button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.slider-dots-desk .slick-active button {
+  background-color: #9ad69a; /* Цвет активной точки */
+}

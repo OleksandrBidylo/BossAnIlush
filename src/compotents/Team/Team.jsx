@@ -26,6 +26,8 @@ const CustomNextArrow = (props) => {
 
 const Team = () => {
   const settings = {
+    dots: true,
+    dotsClass: "slider-dots-desk",
     infinite: true,
     centerPadding: "1px",
     slidesToShow: 3,
@@ -44,13 +46,13 @@ const Team = () => {
         Наша команда
       </h3>
       <Slider {...settings}>
-        <div className="px-2  ">
+        <div className="px-4    ">
           <img
             src="https://mayday.rocks/wp-content/uploads/2022/05/967752.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
+            className=" transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12 "
           />
-          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold  ">
-            <p className="font-bold text-xl">Илья</p>
+          <div className=" rounded-b-3xl text-center p-3  font-semibold  mb-12  bg-gray-800 ">
+            <p className="font-bold text-xl text-primary">Илья</p>
 
             <p>Самый главный босс</p>
 
@@ -58,30 +60,43 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="px-2 ">
+        <div className="px-4 ">
           <img
             src="https://st1.stranamam.ru/data/cache/2011sep/18/42/2592617_13202-650x0.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
+            className=" transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12 "
           />
-          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold  ">
-            <p className="font-bold text-xl">Тимофей</p>
+          <div className="  rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800 ">
+            <p className="font-bold text-xl text-primary">Тимофей</p>
 
             <p>Самый серьёзный член команды</p>
 
             <p>Опыт в промальпе: 3 года</p>
           </div>
         </div>
-        <div className="px-2  ">
+        <div className="px-4  ">
           <img
             src="https://bm.img.com.ua/videoimg/18/149518.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
+            className="  transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12  "
           />
-          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold">
-            <p className="font-bold text-xl">Владимир</p>
+          <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
+            <p className="font-bold text-xl text-primary">Владимир</p>
 
             <p>Главный клоун в команде</p>
 
             <p>Опыт в промальпе: 6 лет</p>
+          </div>
+        </div>
+        <div className="px-4  ">
+          <img
+            src="https://images.techinsider.ru/upload/img_cache/1c8/1c88a8df7b5de2f3d93c0fd4a4f6737b_ce_1281x853x146x13_cropped_510x340.webp"
+            className="  transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12  "
+          />
+          <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
+            <p className="font-bold text-xl text-primary">Вячеслав</p>
+
+            <p>Монтажер команды</p>
+
+            <p>Опыт в промальпе: 4 года</p>
           </div>
         </div>
       </Slider>
