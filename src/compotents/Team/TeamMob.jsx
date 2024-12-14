@@ -34,7 +34,7 @@ const TeamMob = () => {
           />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Тимофей</p>
-            <p>Самый серьёзный член команды</p>
+            <p>Самый белый</p>
 
             <p>Опыт в промальпе: 3 года</p>
           </div>
