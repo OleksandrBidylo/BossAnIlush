@@ -20,7 +20,7 @@ const OurServices = () => {
                 методов для достижения высокого качества результата.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 20 руб</div>
+                <div className="btn ">от 20 руб/м²</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -68,7 +68,7 @@ const OurServices = () => {
                 для поддержания презентабельного внешнего вида.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 20 руб</div>
+                <div className="btn ">от 20 руб/м²</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -155,7 +155,7 @@ const OurServices = () => {
                 зимний период.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 350 руб </div>
+                <div className="btn ">от 350 руб/шт </div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>
@@ -176,7 +176,7 @@ const OurServices = () => {
                 возможных повреждений.
               </p>
               <div className="card-actions justify-end flex items-center gap-2 ">
-                <div className="btn ">от 40 руб</div>
+                <div className="btn ">от 40 руб/м²</div>
                 <NavLink to="/order" className="btn btn-primary">
                   Заказать
                 </NavLink>

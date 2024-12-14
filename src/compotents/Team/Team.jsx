@@ -47,9 +47,9 @@ const Team = () => {
         <div className="px-2  ">
           <img
             src="https://mayday.rocks/wp-content/uploads/2022/05/967752.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
           />
-          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold">
+          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold  ">
             <p className="font-bold text-xl">Илья</p>
 
             <p>Самый главный босс</p>
@@ -58,12 +58,12 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="px-2  ">
+        <div className="px-2 ">
           <img
             src="https://st1.stranamam.ru/data/cache/2011sep/18/42/2592617_13202-650x0.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
           />
-          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold">
+          <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold  ">
             <p className="font-bold text-xl">Тимофей</p>
 
             <p>Самый серьёзный член команды</p>
@@ -74,7 +74,7 @@ const Team = () => {
         <div className="px-2  ">
           <img
             src="https://bm.img.com.ua/videoimg/18/149518.jpg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl "
           />
           <div className="bg-primary rounded-b-3xl text-center p-3 text-black font-semibold">
             <p className="font-bold text-xl">Владимир</p>
