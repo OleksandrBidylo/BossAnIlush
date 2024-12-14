@@ -164,7 +164,7 @@ body {
 .slider-dots-obj button {
   width: 25px;
   height: 2px;
-  border-radius: 50%;
+
   background-color: #ccc;
   border: none;
   cursor: pointer;
