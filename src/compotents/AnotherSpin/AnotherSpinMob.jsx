@@ -26,31 +26,31 @@ const AnotherSpin = () => {
         Наши объекты
       </h3>
       <Slider {...settings}>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/QqmXTb9.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/eTQeH10.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/ia4yHva.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/HsYFUO8.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/4lJUm6Q.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/jlcQWoE.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/cUukqMb.jpeg" className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/l87LvTO.jpeg " className={s.img} />
         </div>
-        <div className="ml-7">
+        <div className="ml-10">
           <img src="https://i.imgur.com/8iBvguo.jpeg " className={s.img} />
         </div>
       </Slider>

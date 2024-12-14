@@ -47,55 +47,55 @@ const AnotherSpinMob = () => {
         <div className="px-2">
           <img
             src="https://i.imgur.com/QqmXTb9.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className=" px-2">
           <img
             src="https://i.imgur.com/eTQeH10.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/ia4yHva.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/HsYFUO8.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/4lJUm6Q.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/jlcQWoE.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/cUukqMb.jpeg"
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/l87LvTO.jpeg "
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
         <div className="px-2">
           <img
             src="https://i.imgur.com/8iBvguo.jpeg "
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96"
+            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
           />
         </div>
       </Slider>
