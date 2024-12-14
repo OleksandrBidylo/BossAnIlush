@@ -26,6 +26,8 @@ const CustomNextArrow = (props) => {
 
 const AnotherSpinMob = () => {
   const settings = {
+    dots: true,
+    dotsClass: "slider-dots-obj-desk",
     infinite: true,
     centerPadding: "1px",
     slidesToShow: 3,

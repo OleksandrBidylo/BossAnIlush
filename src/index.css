@@ -68,7 +68,7 @@ body {
 
 /* Spin.module.css */
 .slider-dots {
-  margin-left: 150px;
+  padding-left: 150px;
   color: transparent;
   position: absolute;
   top: 0;
@@ -106,9 +106,9 @@ body {
 /* точки для десктопа */
 
 .slider-dots-desk {
-  margin-left: 473px;
   color: transparent;
   position: absolute;
+  padding-left: 480px;
   top: 0;
   width: 100%;
   display: flex;
@@ -138,4 +138,77 @@ body {
 
 .slider-dots-desk .slick-active button {
   background-color: #9ad69a; /* Цвет активной точки */
+}
+
+/* объекты */
+.slider-dots-obj {
+  color: transparent;
+  position: absolute;
+  padding-left: 42px;
+  top: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; /* Сделать их в ряд */
+
+  z-index: 2;
+}
+
+/* Это уточнит, как вести себя li */
+.slider-dots-obj li {
+  margin: 0; /* Убираем отступы для каждого элемента */
+  display: inline-block; /* Принудительное поведение inline-block */
+}
+
+/* Эти стили уже правильные, и они для точек */
+.slider-dots-obj button {
+  width: 25px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 5px;
+}
+
+.slider-dots-obj .slick-active button {
+  background-color: #9ad69a;
+}
+
+/* obj desk */
+.slider-dots-obj-desk {
+  color: transparent;
+  position: absolute;
+  padding-left: 430px;
+  top: -35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; /* Сделать их в ряд */
+
+  z-index: 2;
+}
+
+/* Это уточнит, как вести себя li */
+.slider-dots-obj-desk li {
+  margin: 0; /* Убираем отступы для каждого элемента */
+  display: inline-block; /* Принудительное поведение inline-block */
+}
+
+/* Эти стили уже правильные, и они для точек */
+.slider-dots-obj-desk button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.slider-dots-obj-desk .slick-active button {
+  background-color: #9ad69a;
 }
