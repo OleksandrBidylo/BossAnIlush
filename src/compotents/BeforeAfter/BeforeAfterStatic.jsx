@@ -28,21 +28,23 @@ const BeforeAfterStatic = () => {
           display: "flex",
           position: "relative",
           width: "100%",
-          height: "0",
-          paddingBottom: "100%", // Соотношение 1:1 для аспекта
-          overflow: "hidden",
+          height: "auto", // меняем на авто, чтобы контейнер подстраивался под высоту
         }}
       >
         {/* Левая фотография */}
         <div
           style={{
             width: "50%",
-            height: "100%",
             overflow: "hidden",
+            paddingTop: "50%", // Соотношение 1:1 для аспекта
+            position: "relative",
           }}
         >
           <img
             style={{
+              position: "absolute",
+              top: "0",
+              left: "0",
               width: "100%",
               height: "100%",
               objectFit: "cover",
@@ -58,12 +60,16 @@ const BeforeAfterStatic = () => {
         <div
           style={{
             width: "50%",
-            height: "100%",
             overflow: "hidden",
+            paddingTop: "50%", // Соотношение 1:1 для аспекта
+            position: "relative",
           }}
         >
           <img
             style={{
+              position: "absolute",
+              top: "0",
+              left: "0",
               width: "100%",
               height: "100%",
               objectFit: "cover",
