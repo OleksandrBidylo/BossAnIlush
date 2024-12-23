@@ -23,7 +23,7 @@ const TeamMob = () => {
 
   return (
     <div className="mb-36 font-custom shadow-2xl shadow-black py-10 rounded-xl">
-      <h3 className="flex justify-center mb-10 text-xl font-semibold text-center">
+      <h3 className="flex justify-center mb-10 text-2xl font-semibold text-center">
         Наша команда
       </h3>
       <Slider {...settings} className="pt-10">

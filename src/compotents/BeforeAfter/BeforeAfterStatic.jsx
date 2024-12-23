@@ -1,97 +1,26 @@
 const BeforeAfterStatic = () => {
   return (
-    <div
-      style={{
-        marginTop: "52px",
-        marginBottom: "52px",
-        boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.5)",
-        padding: "16px",
-        paddingBottom: "40px",
-        borderRadius: "12px",
-      }}
-    >
-      <p
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "20px",
-          fontSize: "24px",
-          padding: "16px",
-          fontWeight: "600",
-          fontFamily: "Montserrat, sans-serif",
-        }}
-      >
+    <div className="font-custom font-semibold mt-52 mb-52 shadow-2xl shadow-black p-4 pb-10 rounded-xl">
+      <p className="flex justify-center mb-5 text-2xl p-4   ">
         Окна до нас и после
       </p>
-      <div
-        style={{
-          display: "flex",
-          position: "relative",
-          width: "100%",
-          height: "auto", // меняем на авто, чтобы контейнер подстраивался под высоту
-        }}
-      >
-        {/* Левая фотография */}
-        <div
-          style={{
-            width: "50%",
-            overflow: "hidden",
-            paddingTop: "50%", // Соотношение 1:1 для аспекта
-            position: "relative",
-          }}
-        >
+      <div className="flex gap-5">
+        <div className="flex flex-col gap-2 text-center">
           <img
-            style={{
-              position: "absolute",
-              top: "0",
-              left: "0",
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              borderTopLeftRadius: "12px",
-              borderBottomLeftRadius: "12px",
-            }}
-            alt="Окно до"
-            src="https://i.imgur.com/Xt4ErOI.jpeg"
-          />
-        </div>
-
-        {/* Правая фотография */}
-        <div
-          style={{
-            width: "50%",
-            overflow: "hidden",
-            paddingTop: "50%", // Соотношение 1:1 для аспекта
-            position: "relative",
-          }}
-        >
-          <img
-            style={{
-              position: "absolute",
-              top: "0",
-              left: "0",
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              borderTopRightRadius: "12px",
-              borderBottomRightRadius: "12px",
-            }}
-            alt="Окно после"
+            className="rounded-md  "
+            alt="daisy"
             src="https://i.imgur.com/8kHtbYg.jpeg"
           />
+          <p>До</p>
         </div>
-
-        {/* Разделитель */}
-        <div
-          style={{
-            position: "absolute",
-            left: "50%",
-            top: "0",
-            bottom: "0",
-            width: "2px",
-            backgroundColor: "black",
-          }}
-        ></div>
+        <div className="flex flex-col gap-2 text-center">
+          <img
+            className="rounded-md  "
+            alt="daisy"
+            src="https://i.imgur.com/Xt4ErOI.jpeg"
+          />
+          <p>После</p>
+        </div>
       </div>
     </div>
   );
