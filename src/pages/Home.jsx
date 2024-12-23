@@ -13,9 +13,16 @@ import { Link } from "react-scroll";
 import BeforeAfterMob from "../compotents/BeforeAfter/BeforeAfterMob";
 import TeamMob from "../compotents/Team/TeamMob";
 import AnotherSpinMob from "../compotents/AnotherSpin/AnotherSpinMob";
+import BeforeAfterStatic from "../compotents/BeforeAfter/BeforeAfterStatic";
 
 const Home = () => {
   const [currentText, setCurrentText] = useState(0);
+  const [isIOS, setIsIOS] = useState(false);
+
+  useEffect(() => {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    setIsIOS(/iPad|iPhone|iPod/i.test(userAgent));
+  }, []);
 
   const texts = [
     "Ваш надёжный партнёр на высоте",
@@ -31,7 +38,6 @@ const Home = () => {
       setCurrentText((prevText) => (prevText + 1) % texts.length);
     }, 4000);
 
-    // Очистка интервала при размонтировании компонента
     return () => clearInterval(interval);
   }, [texts.length]);
 
@@ -140,10 +146,8 @@ const Home = () => {
           <div className="hidden lg:block">
             <BeforeAfter />
           </div>
-        </motion.div>
-        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="block lg:hidden">
-            <BeforeAfterMob />
+            {isIOS ? <BeforeAfterStatic /> : <BeforeAfterMob />}
           </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
