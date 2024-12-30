@@ -1,32 +1,37 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Layout from "./compotents/Layout/Layout";
-import ContactUs from "./pages/ContactUs";
 
-import OrderForm from "./pages/OrderForm";
-import AdminPg from "./pages/AdminPg";
-import NotFound from "./pages/NotFound";
-import Succes from "./pages/Succes";
-import OurServices from "./pages/OurServices";
+import { lazy, Suspense } from "react";
+import ContactUs from "./pages/ContactUs";
 import Burger from "./compotents/Burger/Burger";
+
+const Home = lazy(() => import("./pages/Home"));
+const Layout = lazy(() => import("./compotents/Layout/Layout"));
+
+const OrderForm = lazy(() => import("./pages/OrderForm"));
+const AdminPg = lazy(() => import("./pages/AdminPg"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const Succes = lazy(() => import("./pages/Succes"));
+const OurServices = lazy(() => import("./pages/OurServices"));
 
 const App = () => {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
+      <Suspense>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Home />} />
 
-          <Route path="/our-services" element={<OurServices />} />
-        </Route>
-        <Route path="/admin-stuff" element={<AdminPg />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/our-services" element={<OurServices />} />
+          </Route>
+          <Route path="/admin-stuff" element={<AdminPg />} />
+          <Route path="/contact-us" element={<ContactUs />} />
 
-        <Route path="/order" element={<OrderForm />} />
-        <Route path="/succes" element={<Succes />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="/bg-m" element={<Burger />} />
-      </Routes>
+          <Route path="/order" element={<OrderForm />} />
+          <Route path="/succes" element={<Succes />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/bg-m" element={<Burger />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 };
