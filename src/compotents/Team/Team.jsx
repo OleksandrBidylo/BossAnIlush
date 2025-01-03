@@ -41,7 +41,7 @@ const Team = () => {
   };
 
   return (
-    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl ">
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl hidden">
       <h3 className="flex justify-center mb-16 text-3xl font-semibold">
         Наша команда
       </h3>
