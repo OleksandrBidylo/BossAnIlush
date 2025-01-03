@@ -67,7 +67,6 @@ const Home = () => {
       transition={{ duration: 0.5 }}
       className="scroll-smooth"
     >
-      {/* Кнопка для звонка */}
       <a
         className="fixed hidden  top-2/4 left-3 btn btn-circle text-2xl btn-primary"
         href="tel:+1111111"
@@ -75,7 +74,6 @@ const Home = () => {
         <IoCallSharp />
       </a>
 
-      {/* Кнопка наверх с использованием react-scroll */}
       {showArrow && (
         <Link
           to="hero"
@@ -124,7 +122,6 @@ const Home = () => {
         </div>
       </motion.div>
 
-      {/* Основной контент */}
       <div className="max-w-screen-xl mx-auto">
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <Advantages />
