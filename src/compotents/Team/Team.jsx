@@ -60,8 +60,6 @@ const Team = () => {
           <div className=" rounded-b-3xl text-center p-3  font-semibold  mb-12  bg-gray-800 ">
             <p className="font-bold text-xl text-primary">Илья</p>
 
-            <p>Самый главный босс</p>
-
             <p>Опыт в промальпе: 4 года</p>
           </div>
         </div>
@@ -72,8 +70,6 @@ const Team = () => {
           />
           <div className=" rounded-b-3xl text-center p-3  font-semibold  mb-12  bg-gray-800 ">
             <p className="font-bold text-xl text-primary">Дмитрий</p>
-
-            <p>Магнус </p>
 
             <p>Опыт в промальпе: 4 года</p>
           </div>
@@ -87,8 +83,6 @@ const Team = () => {
           <div className="  rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800 ">
             <p className="font-bold text-xl text-primary">Тимофей</p>
 
-            <p>Самый серьёзный член команды</p>
-
             <p>Опыт в промальпе: 3 года</p>
           </div>
         </div>
@@ -100,8 +94,6 @@ const Team = () => {
           <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
             <p className="font-bold text-xl text-primary">Владимир</p>
 
-            <p>Главный клоун в команде</p>
-
             <p>Опыт в промальпе: 6 лет</p>
           </div>
         </div>
@@ -112,8 +104,6 @@ const Team = () => {
           />
           <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
             <p className="font-bold text-xl text-primary">Вячеслав</p>
-
-            <p>Монтажер команды</p>
 
             <p>Опыт в промальпе: 4 года</p>
           </div>

@@ -36,7 +36,6 @@ const TeamMob = () => {
           <img src={timowa} className={s.img} />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Тимофей</p>
-            <p>Самый белый</p>
 
             <p>Опыт в промальпе: 3 года</p>
           </div>
@@ -45,7 +44,6 @@ const TeamMob = () => {
           <img src={iluha} className={s.img} />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Илья</p>
-            <p>Самый главный босс</p>
 
             <p>Опыт в промальпе: 4 года</p>
           </div>
@@ -55,7 +53,6 @@ const TeamMob = () => {
           <img src={dima} className={s.img} />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Дмитрий</p>
-            <p>Магнус</p>
 
             <p>Опыт в промальпе: 4 года</p>
           </div>
@@ -65,7 +62,6 @@ const TeamMob = () => {
           <img src={vova} className={s.img} />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Владимир</p>
-            <p>Главный клоун в команде</p>
 
             <p>Опыт в промальпе: 6 лет</p>
           </div>
@@ -74,7 +70,6 @@ const TeamMob = () => {
           <img src={slava} className={s.img} />
           <div className="pdd bg-gray-800 rounded-b-3xl text-center p-1  font-semibold">
             <p className="font-bold text-lg text-primary">Вячеслав</p>
-            <p>Монтажер команды</p>
 
             <p>Опыт в промальпе: 4 года</p>
           </div>
