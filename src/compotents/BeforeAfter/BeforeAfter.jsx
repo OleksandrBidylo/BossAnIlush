@@ -1,3 +1,6 @@
+import before from "../../assets/images/dirtyWindow.jpg";
+import after from "../../assets/images/clearWindow.jpg";
+
 const BeforeAfter = () => {
   return (
     <div className="mt-52 mb-52 shadow-2xl shadow-black p-20 rounded-xl">
@@ -6,18 +9,10 @@ const BeforeAfter = () => {
       </p>
       <div className="diff aspect-[16/9]  ">
         <div className="diff-item-1 ">
-          <img
-            className="rounded-md"
-            alt="daisy"
-            src="https://i.imgur.com/Xt4ErOI.jpeg"
-          />
+          <img className="rounded-md" alt="daisy" src={after} />
         </div>
         <div className="diff-item-2">
-          <img
-            className="rounded-md"
-            alt="daisy"
-            src="https://i.imgur.com/8kHtbYg.jpeg"
-          />
+          <img className="rounded-md" alt="daisy" src={before} />
         </div>
         <div className="diff-resizer"></div>
       </div>

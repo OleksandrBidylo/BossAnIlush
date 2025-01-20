@@ -1,7 +1,15 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import s from "./Spin.module.css";
-
+import f1 from "../../assets/images/objects/photo_2024-11-25_15-56-41 (2).jpg";
+import f2 from "../../assets/images/objects/photo_2024-11-25_15-56-41 (3).jpg";
+import f3 from "../../assets/images/objects/photo_2024-11-25_15-56-41.jpg";
+import f4 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (2).jpg";
+import f5 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (3).jpg";
+import f6 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (4).jpg";
+import f7 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (5).jpg";
+import f8 from "../../assets/images/objects/photo_2024-11-25_15-56-42.jpg";
+import f9 from "../../assets/images/objects/photo_2024-12-03_18-00-58.jpg";
 import Slider from "react-slick";
 
 const AnotherSpin = () => {
@@ -28,31 +36,31 @@ const AnotherSpin = () => {
       </h3>
       <Slider {...settings}>
         <div className="">
-          <img src="https://i.imgur.com/QqmXTb9.jpeg" className={s.img} />
+          <img src={f1} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/eTQeH10.jpeg" className={s.img} />
+          <img src={f2} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/ia4yHva.jpeg" className={s.img} />
+          <img src={f3} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/HsYFUO8.jpeg" className={s.img} />
+          <img src={f4} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/4lJUm6Q.jpeg" className={s.img} />
+          <img src={f5} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/jlcQWoE.jpeg" className={s.img} />
+          <img src={f6} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/cUukqMb.jpeg" className={s.img} />
+          <img src={f7} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/l87LvTO.jpeg " className={s.img} />
+          <img src={f8} className={s.img} />
         </div>
         <div className="">
-          <img src="https://i.imgur.com/8iBvguo.jpeg " className={s.img} />
+          <img src={f9} className={s.img} />
         </div>
       </Slider>
     </div>

@@ -1,6 +1,7 @@
 import { FaPhoneAlt, FaTelegram, FaYoutube } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import logo from "../../../assets/images/logo.png";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
           </div>
 
           <NavLink to="/" className="    2xl:pl-56  flex ">
-            <img src="https://i.imgur.com/QwPYSmx.png" width="300" />
+            <img src={logo} width="300" />
           </NavLink>
 
           <div>

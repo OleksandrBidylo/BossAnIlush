@@ -1,3 +1,12 @@
+import chastnaya from "../assets/images/services/chastnaya.jpg";
+import fasad from "../assets/images/services/fasad.jpg";
+import mha from "../assets/images/services/mha.jpg";
+import sneg from "../assets/images/services/sneg.jpg";
+import sosulki from "../assets/images/services/sosulki.jpg";
+import ukrashenia from "../assets/images/services/ukrashenie.jpg";
+import vodostok from "../assets/images/services/vodostok.jpg";
+import prom from "../assets/images/services/prom.jpg";
+
 import { NavLink } from "react-router-dom";
 
 const OurServices = () => {
@@ -7,10 +16,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://i.imgur.com/U8Mr53V.jpeg"
-                className="h-96 w-96"
-              />
+              <img src={prom} className="h-96 w-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title"> Промышленная мойка окон </h2>
@@ -31,10 +37,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://i.imgur.com/Jnf3YF8.jpeg"
-                className="h-96 w-96"
-              />
+              <img src={chastnaya} className="h-96 w-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title"> Частная мойка окон</h2>
@@ -55,10 +58,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://i.imgur.com/5JjeDxG.jpeg"
-                className="w-96 h-96"
-              />
+              <img src={fasad} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Мойка фасада </h2>
@@ -79,10 +79,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img
-                src="https://i.imgur.com/UasLR5i.jpeg"
-                className="w-96 h-96"
-              />
+              <img src={ukrashenia} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Украшение коттеджей</h2>
@@ -103,7 +100,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src="https://i.imgur.com/ekM3HMx.jpeg" />
+              <img src={mha} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
@@ -124,7 +121,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src="https://i.imgur.com/HDxWBJX.jpeg" />
+              <img src={sneg} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от снега и наледи </h2>
@@ -145,7 +142,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src="https://i.imgur.com/veUmIMW.jpeg" />
+              <img src={vodostok} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Подготовка водостоков к зиме </h2>
@@ -166,7 +163,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src="https://i.imgur.com/BkpcQPf.jpeg" />
+              <img src={sosulki} />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Удаление сосулек </h2>

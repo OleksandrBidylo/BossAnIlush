@@ -1,6 +1,12 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import iluha from "../../assets/images/team/Screenshot_2025_01_13_06_56_20_65_92460851df6f172a4592fca41cc2d2e6.jpg";
+import vova from "../../assets/images/team/IMG20250113114704.jpg";
+import dima from "../../assets/images/team/IMG20250113093837.jpg";
+import slava from "../../assets/images/team/IMG20250113114457.jpg";
+import timowa from "../../assets/images/team/IMG20250112110000.jpg";
+
 import Slider from "react-slick";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
@@ -41,14 +47,14 @@ const Team = () => {
   };
 
   return (
-    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl hidden">
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl ">
       <h3 className="flex justify-center mb-16 text-3xl font-semibold">
         Наша команда
       </h3>
       <Slider {...settings}>
         <div className="px-4    ">
           <img
-            src="https://mayday.rocks/wp-content/uploads/2022/05/967752.jpg"
+            src={iluha}
             className=" transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12 "
           />
           <div className=" rounded-b-3xl text-center p-3  font-semibold  mb-12  bg-gray-800 ">
@@ -59,10 +65,23 @@ const Team = () => {
             <p>Опыт в промальпе: 4 года</p>
           </div>
         </div>
+        <div className="px-4    ">
+          <img
+            src={dima}
+            className=" transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12 "
+          />
+          <div className=" rounded-b-3xl text-center p-3  font-semibold  mb-12  bg-gray-800 ">
+            <p className="font-bold text-xl text-primary">Дмитрий</p>
+
+            <p>Магнус </p>
+
+            <p>Опыт в промальпе: 4 года</p>
+          </div>
+        </div>
 
         <div className="px-4 ">
           <img
-            src="https://st1.stranamam.ru/data/cache/2011sep/18/42/2592617_13202-650x0.jpg"
+            src={timowa}
             className=" transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12 "
           />
           <div className="  rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800 ">
@@ -75,7 +94,7 @@ const Team = () => {
         </div>
         <div className="px-4  ">
           <img
-            src="https://bm.img.com.ua/videoimg/18/149518.jpg"
+            src={vova}
             className="  transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12  "
           />
           <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
@@ -88,7 +107,7 @@ const Team = () => {
         </div>
         <div className="px-4  ">
           <img
-            src="https://images.techinsider.ru/upload/img_cache/1c8/1c88a8df7b5de2f3d93c0fd4a4f6737b_ce_1281x853x146x13_cropped_510x340.webp"
+            src={slava}
             className="  transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-t-3xl mt-12  "
           />
           <div className="                 rounded-b-3xl text-center p-3  font-semibold  mb-12 bg-gray-800">
