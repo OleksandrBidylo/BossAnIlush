@@ -10,22 +10,18 @@ import { setFilterValue } from "../redux/filterSlice";
 
 const AdminPg = () => {
   const [isPasswordVerified, setIsPasswordVerified] = useState(false);
-  const prevUserInfoLength = useRef(0); // Для отслеживания предыдущей длины массива заказов
+  const prevUserInfoLength = useRef(0);
 
   const dispatch = useDispatch();
-  const userInfo = useSelector(selectFilteredDataMemo); // Отфильтрованные данные
-  const uncompletedInfo = useSelector(selectUncompletedInfoMemo); // Количество непринятых заказов
+  const userInfo = useSelector(selectFilteredDataMemo);
+  const uncompletedInfo = useSelector(selectUncompletedInfoMemo);
 
-  // Запрос разрешения на уведомления при первой загрузке
   useEffect(() => {
     if (Notification.permission !== "granted") {
-      Notification.requestPermission().then((permission) => {
-        console.log("Разрешение на уведомления:", permission);
-      });
+      Notification.requestPermission().then(() => {});
     }
   }, []);
 
-  // Проверка, был ли пароль уже подтвержден (из localStorage)
   useEffect(() => {
     const storedVerification = localStorage.getItem("isPasswordVerified");
     if (storedVerification === "true") {
@@ -33,40 +29,36 @@ const AdminPg = () => {
     }
   }, []);
 
-  // Автообновление списка заказов каждые 5 секунд, если пароль подтвержден
   useEffect(() => {
     if (isPasswordVerified) {
-      dispatch(fetchInfo()); // Первоначальная загрузка данных
+      dispatch(fetchInfo());
 
       const interval = setInterval(() => {
-        dispatch(fetchInfo()); // Периодическая загрузка данных
+        dispatch(fetchInfo());
       }, 5000);
 
-      return () => clearInterval(interval); // Очистка интервала при размонтировании
+      return () => clearInterval(interval);
     }
   }, [dispatch, isPasswordVerified]);
 
-  // Отслеживание новых заказов и отправка уведомлений
   useEffect(() => {
     if (isPasswordVerified) {
       if (userInfo.length > prevUserInfoLength.current) {
         const newOrders = userInfo.length - prevUserInfoLength.current;
-        console.log(`Обнаружено ${newOrders} новых заказов!`);
 
         if (Notification.permission === "granted") {
           new Notification("Новый заказ!", {
-            body: `Добавлен новый заказ. Всего новых заказов: ${newOrders}.`,
+            body: `Добавлен новый заказ.`,
           });
         }
       }
-      prevUserInfoLength.current = userInfo.length; // Обновляем предыдущую длину массива
+      prevUserInfoLength.current = userInfo.length;
     }
   }, [userInfo, isPasswordVerified]);
 
   return (
     <div>
       {!isPasswordVerified ? (
-        // Форма ввода пароля, если пароль не подтвержден
         <div className="flex justify-center p-52">
           <Formik
             initialValues={{ password: "" }}
@@ -87,7 +79,6 @@ const AdminPg = () => {
           </Formik>
         </div>
       ) : (
-        // Основной интерфейс админки, если пароль подтвержден
         <div className="text-xl font-custom text-white pl-5">
           <h2 className="text-3xl flex justify-center pb-5 mt-12">
             Информация для админа
@@ -120,7 +111,6 @@ const AdminPg = () => {
             </button>
           </div>
 
-          {/* Список заказов */}
           <ul className="grid grid-cols-4 gap-1">
             {userInfo.map((item) => (
               <li
