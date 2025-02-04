@@ -15,6 +15,9 @@ export const fetchInfo = createAsyncThunk("fetchInfo", async (_, thunkApi) => {
 export const addInfo = createAsyncThunk("addInfo", async (body, thunkApi) => {
   try {
     const { data } = await axios.post("/usersinfo", body);
+
+    thunkApi.dispatch(fetchInfo());
+
     return data;
   } catch (error) {
     return thunkApi.rejectWithValue(error.message);
