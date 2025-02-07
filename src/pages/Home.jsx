@@ -145,6 +145,10 @@ const Home = () => {
             {isIOS ? <BeforeAfterStatic /> : <BeforeAfterMob />}
           </div>
         </motion.div>
+
+        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
+          <Advantages />
+        </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="hidden lg:block">
             <Team />
@@ -154,9 +158,6 @@ const Home = () => {
           <div className="block lg:hidden">
             <TeamMob />
           </div>
-        </motion.div>
-        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
-          <Advantages />
         </motion.div>
       </div>
     </motion.div>
