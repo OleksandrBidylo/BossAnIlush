@@ -124,19 +124,17 @@ const Home = () => {
 
       <div className="max-w-screen-xl mx-auto">
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
-          <Advantages />
-        </motion.div>
-        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <Modal />
         </motion.div>
+
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="hidden lg:block">
-            <Team />
+            <AnotherSpin />
           </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="block lg:hidden">
-            <TeamMob />
+            <AnotherSpinMob />
           </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
@@ -149,13 +147,16 @@ const Home = () => {
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="hidden lg:block">
-            <AnotherSpin />
+            <Team />
           </div>
         </motion.div>
         <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
           <div className="block lg:hidden">
-            <AnotherSpinMob />
+            <TeamMob />
           </div>
+        </motion.div>
+        <motion.div initial="hidden" whileInView="visible" variants={fadeInUp}>
+          <Advantages />
         </motion.div>
       </div>
     </motion.div>

@@ -30,7 +30,7 @@ const AnotherSpin = () => {
   };
 
   return (
-    <div className="mb-36 font-custom shadow-2xl shadow-black py-10 rounded-xl">
+    <div className="mb-36 font-custom shadow-2xl shadow-black py-10 rounded-xl mt-36">
       <h3 className="flex justify-center mb-5 text-2xl font-semibold text-center">
         Наши объекты
       </h3>
