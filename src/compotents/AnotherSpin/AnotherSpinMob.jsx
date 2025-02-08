@@ -24,7 +24,7 @@ const AnotherSpin = () => {
     focusOnSelect: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     arrows: false,
     adaptiveHeight: true,
   };
@@ -37,30 +37,84 @@ const AnotherSpin = () => {
       <Slider {...settings}>
         <div className="">
           <img src={f1} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f2} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f3} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f4} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f5} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f6} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f7} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f8} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="">
           <img src={f9} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
       </Slider>
     </div>

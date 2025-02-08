@@ -2,7 +2,7 @@ import { FaTelegram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="font-custom 2xl:text-2xl">
+    <div className="font-custom 2xl:text-4xl">
       <footer className="flex bg-neutral text-white p-10 justify-center  items-center">
         <div className="flex flex-col items-center ">
           <p>Наши соц-сети</p>

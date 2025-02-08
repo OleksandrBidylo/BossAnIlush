@@ -102,6 +102,7 @@ const OrderForm = () => {
                     Подготовка водостоков к зиме
                   </option>
                   <option value="Удаление сосулек">Удаление сосулек</option>
+                  <option value="Другое">Другое</option>
                 </Field>
               </div>
               <div className="form-control">

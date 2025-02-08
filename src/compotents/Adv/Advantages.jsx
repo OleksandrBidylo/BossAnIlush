@@ -1,6 +1,6 @@
 const Advantages = () => {
   return (
-    <div className=" font-custom font-semibold  mt-52 mb-52 items-center flex flex-col min-h-96 shadow-2xl shadow-black py-10 lg:py-20 rounded-xl ">
+    <div className="hidden font-custom font-semibold  mt-52 mb-52 items-center  flex-col min-h-96 shadow-2xl shadow-black py-10 lg:py-20 rounded-xl ">
       <p className="flex justify-center text-2xl mb-10 lg:text-3xl lg:mb-20">
         Наши преимущества
       </p>

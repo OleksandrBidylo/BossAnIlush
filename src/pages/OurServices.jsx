@@ -100,7 +100,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src={mha} />
+              <img src={mha} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от мха </h2>
@@ -121,7 +121,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src={sneg} />
+              <img src={sneg} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Очистка кровли от снега и наледи </h2>
@@ -142,7 +142,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src={vodostok} />
+              <img src={vodostok} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Подготовка водостоков к зиме </h2>
@@ -163,7 +163,7 @@ const OurServices = () => {
         <li>
           <div className="card card-compact bg-base-100 2xl:w-96 shadow-xl w-72 ml-11">
             <figure>
-              <img src={sosulki} />
+              <img src={sosulki} className="w-96 h-96" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Удаление сосулек </h2>

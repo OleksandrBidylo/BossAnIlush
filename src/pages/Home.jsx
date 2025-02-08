@@ -97,7 +97,7 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <motion.h1
-              className="mb-5 text-7xl font-bold font-custom"
+              className="mb-5 text-5xl 2xl:text-7xl font-bold font-custom"
               initial="hidden"
               whileInView="visible"
               variants={fadeInUp}
@@ -112,8 +112,11 @@ const Home = () => {
             >
               {texts[currentText]}
             </motion.p>
-            <NavLink className="btn  text-3xl btn-primary" to="/our-services">
-              Посмотреть услуги
+            <NavLink
+              className="btn  2xl:text-3xl btn-primary"
+              to="/our-services"
+            >
+              Заказать услуги
             </NavLink>
           </div>
         </div>

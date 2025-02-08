@@ -45,70 +45,124 @@ const AnotherSpinMob = () => {
     focusOnSelect: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
   };
 
   return (
-    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-20 px-24 rounded-xl mt-52">
+    <div className="w-full relative mb-52 font-custom shadow-2xl shadow-black py-5  rounded-xl mt-52   ">
       <h3 className="flex justify-center mb-16 text-3xl font-semibold">
         Наши объекты
       </h3>
-      <Slider {...settings}>
+      <Slider className="px-10" {...settings}>
         <div className="px-2">
           <img
             src={f1}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className=" px-2">
           <img
             src={f2}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f3}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f4}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f5}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f6}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f7}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f8}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
         <div className="px-2">
           <img
             src={f9}
-            className="transition-transform transform duration-300 ease-in-out h-96 w-96 rounded-3xl"
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Сбор и украшение ёлки
+            </p>
+          </div>
         </div>
       </Slider>
     </div>

@@ -8,19 +8,20 @@ const Header = () => {
     <div className="font-custom">
       <header className="bg-neutral text-neutral-content  relative p-3 2xl:p-5 ">
         <div className="flex items-center justify-between  max-h-14 ">
-          <div className=" flex 2xl:gap-5 2xl:ml-10 2xl:font-semibold 2xl:text-2xl items-center">
+          <div className="hidden 2xl:flex 2xl:gap-5 2xl:ml-10 2xl:font-semibold 2xl:text-2xl items-center">
             <NavLink
-              className="hidden 2xl:flex btn text-xl btn-primary"
-              to="/our-services"
+              to="/contact-us"
+              className="flex items-center gap-1 btn font-bold btn-primary text-2xl"
             >
-              Наши услуги
+              <FaPhoneAlt />
+              Свяжитесь с нами !
             </NavLink>
             <a className="hidden 2xl:flex" href="tel:+79261380527">
               +79261380527
             </a>
           </div>
 
-          <NavLink to="/" className="    2xl:pl-56  flex ">
+          <NavLink to="/" className=" pl-8     2xl:pl-0   flex ">
             <img src={logo} width="300" />
           </NavLink>
 
@@ -32,13 +33,12 @@ const Header = () => {
 
           <div className="hidden 2xl:flex  text-4xl">
             <div className=" flex items-center gap-5">
-              <NavLink
-                to="/contact-us"
-                className="flex items-center gap-1 btn font-bold btn-primary text-2xl"
-              >
-                <FaPhoneAlt />
-                Свяжитесь с нами !
-              </NavLink>
+              <div className="text-2xl font-bold text-center ">
+                <div>
+                  <p className="text-primary">08:00-00:00</p>
+                </div>
+                <p className="text-lg">Приём заказов</p>
+              </div>
               <div className="flex gap-5 mr-10">
                 <a
                   className="btn text-3xl "
