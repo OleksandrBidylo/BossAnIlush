@@ -80,7 +80,7 @@ const Home = () => {
           smooth={true}
           duration={500}
           offset={-100}
-          className="fixed hidden lg:flex top-2/3 left-3 btn btn-circle text-2xl btn-primary"
+          className="fixed hidden lg:flex bottom-12 right-3 btn btn-circle text-2xl btn-primary"
         >
           <FaArrowUp />
         </Link>
@@ -97,7 +97,7 @@ const Home = () => {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
             <motion.h1
-              className="mb-5 text-5xl font-bold font-custom"
+              className="mb-5 text-7xl font-bold font-custom"
               initial="hidden"
               whileInView="visible"
               variants={fadeInUp}
@@ -112,11 +112,8 @@ const Home = () => {
             >
               {texts[currentText]}
             </motion.p>
-            <NavLink
-              className="btn font-semibold text-xl btn-primary"
-              to="/order"
-            >
-              Заказать!
+            <NavLink className="btn  text-3xl btn-primary" to="/our-services">
+              Посмотреть услуги
             </NavLink>
           </div>
         </div>
