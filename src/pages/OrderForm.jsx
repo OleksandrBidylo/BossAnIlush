@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { addInfo } from "../redux/ops";
 import { useState } from "react";
 import { Navigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const OrderForm = () => {
   const initialValues = {
@@ -34,19 +35,39 @@ const OrderForm = () => {
     return <Navigate to="/succes" />;
   }
 
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
+  const buttonAnimation = {
+    hover: { scale: 1.05 },
+    tap: { scale: 0.95 },
+  };
+
   return (
     <div className="hero bg-base-200 min-h-screen font-custom">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-left">
-          <h1 className="text-2xl  2xl:text-5xl font-bold text-primary">
-            Оформите заказ !
+        <motion.div
+          className="text-center lg:text-left"
+          initial="hidden"
+          animate="visible"
+          variants={fadeInUp}
+        >
+          <h1 className="text-2xl 2xl:text-5xl font-bold text-primary">
+            Оформите заказ!
           </h1>
-          <p className="text-sm py-2  2xl:py-6">
-            когда вы отправляете заявку вы подтверждаете, что ваши данные будут
+          <p className="text-sm py-2 2xl:py-6">
+            Когда вы отправляете заявку, вы подтверждаете, что ваши данные будут
             переданы администратору!
           </p>
-        </div>
-        <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        </motion.div>
+        <motion.div
+          className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl"
+          initial="hidden"
+          animate="visible"
+          variants={fadeInUp}
+        >
           <Formik onSubmit={onSubmit} initialValues={initialValues}>
             <Form className="card-body">
               <div className="form-control">
@@ -80,8 +101,7 @@ const OrderForm = () => {
                 <Field
                   as="select"
                   name="dropdown"
-                  className="input
-                  input-bordered text-xs  lg:text-sm  w-64 2xl:w-80"
+                  className="input input-bordered text-xs lg:text-sm w-64 2xl:w-80"
                   required
                 >
                   <option value="Промышленная мойка окон">
@@ -106,8 +126,8 @@ const OrderForm = () => {
                 </Field>
               </div>
               <div className="form-control">
-                <label className="label ">
-                  <span className="label-text ">Подробнее об заказе</span>
+                <label className="label">
+                  <span className="label-text">Подробнее об заказе</span>
                 </label>
                 <Field
                   name="area"
@@ -120,16 +140,19 @@ const OrderForm = () => {
 
               <Field name="timestamp" type="hidden" />
               <div className="form-control mt-6">
-                <button
+                <motion.button
                   type="submit"
                   className="btn btn-primary text-sm 2xl:text-lg"
+                  whileHover="hover"
+                  whileTap="tap"
+                  variants={buttonAnimation}
                 >
                   Отправить
-                </button>
+                </motion.button>
               </div>
             </Form>
           </Formik>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
