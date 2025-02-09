@@ -21,7 +21,7 @@ const Header = () => {
             </a>
           </div>
 
-          <NavLink to="/" className=" pl-8     2xl:pl-0   flex  items-center">
+          <NavLink to="/" className=" pl-5     2xl:pl-0   flex  items-center">
             <img src={logo} width="70" />
             <p className="text-4xl font-bold">BossAnAlp</p>
           </NavLink>

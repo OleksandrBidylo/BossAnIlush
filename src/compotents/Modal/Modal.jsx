@@ -6,7 +6,7 @@ const Modal = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       toast.info(
-        <div>
+        <div className="font-custom">
           <h3 className="font-bold text-lg  text-gray-800">Внимание!</h3>
           <p className="py-2 text-gray-800">
             Мы предлагаем <span className="font-bold ">бесплатную</span> пробную
