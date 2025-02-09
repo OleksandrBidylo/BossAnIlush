@@ -116,7 +116,7 @@ const Home = () => {
               className="btn 2xl:text-3xl btn-primary"
               to="/our-services"
             >
-              Заказать услуги
+              Выбрать услугу
             </NavLink>
           </div>
         </div>
