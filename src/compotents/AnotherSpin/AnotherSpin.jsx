@@ -10,6 +10,7 @@ import f6 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (4).jpg";
 import f7 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (5).jpg";
 import f8 from "../../assets/images/objects/photo_2024-11-25_15-56-42.jpg";
 import f9 from "../../assets/images/objects/photo_2024-12-03_18-00-58.jpg";
+import zdanie from "../../assets/images/zdanie.webp";
 
 import Slider from "react-slick";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
@@ -58,13 +59,13 @@ const AnotherSpinMob = () => {
       <Slider className="px-10" {...settings}>
         <div className="px-2">
           <img
-            src={f1}
+            src={zdanie}
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">жк SKY HOUSE</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Промышленая мойка окон
             </p>
           </div>
         </div>
