@@ -163,13 +163,13 @@ body {
 /* Эти стили уже правильные, и они для точек */
 .slider-dots-obj button {
   width: 25px;
-  height: 2px;
+  height: 3px;
 
   background-color: #ccc;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-left: 5px;
+  margin-left: 12px;
 }
 
 .slider-dots-obj .slick-active button {
@@ -206,7 +206,7 @@ body {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-left: 20px;
+  margin-left: 23px;
 }
 
 .slider-dots-obj-desk .slick-active button {

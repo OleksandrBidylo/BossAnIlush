@@ -1,15 +1,15 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import f1 from "../../assets/images/objects/photo_2024-11-25_15-56-41 (2).jpg";
-import f2 from "../../assets/images/objects/photo_2024-11-25_15-56-41 (3).jpg";
+import f1 from "../../assets/images/objects/chrismasTree.png";
+import f2 from "../../assets/images/objects/chameleon.png";
 import f3 from "../../assets/images/objects/photo_2024-11-25_15-56-41.jpg";
-import f4 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (2).jpg";
-import f5 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (3).jpg";
-import f6 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (4).jpg";
-import f7 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (5).jpg";
-import f8 from "../../assets/images/objects/photo_2024-11-25_15-56-42.jpg";
-import f9 from "../../assets/images/objects/photo_2024-12-03_18-00-58.jpg";
+import f4 from "../../assets/images/objects/twins.png";
+
+import f6 from "../../assets/images/objects/dom.png";
+import f7 from "../../assets/images/objects/bcSam.png";
+import f8 from "../../assets/images/objects/salo.png";
+
 import zdanie from "../../assets/images/zdanie.webp";
 
 import Slider from "react-slick";
@@ -75,15 +75,15 @@ const AnotherSpinMob = () => {
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">БЦ хамелеон</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Промышленная мойка фасада и остекления
             </p>
           </div>
         </div>
         <div className="px-2">
           <img
-            src={f3}
+            src={f1}
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
@@ -99,33 +99,22 @@ const AnotherSpinMob = () => {
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">Wellton Towers</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Монтаж фонарей
             </p>
           </div>
         </div>
-        <div className="px-2">
-          <img
-            src={f5}
-            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
-          />
-          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
-            <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
-            </p>
-          </div>
-        </div>
+
         <div className="px-2">
           <img
             src={f6}
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">Частный дом</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Украшение коттеджей
             </p>
           </div>
         </div>
@@ -135,9 +124,9 @@ const AnotherSpinMob = () => {
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">БЦ Саммит</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Промышленная мойка остекления
             </p>
           </div>
         </div>
@@ -147,21 +136,21 @@ const AnotherSpinMob = () => {
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">Завод Салют</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Обеспыливание цехов
             </p>
           </div>
         </div>
         <div className="px-2">
           <img
-            src={f9}
+            src={f3}
             className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
           />
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
-            <p className="font-bold text-xl">Ёлка в Чите</p>
+            <p className="font-bold text-xl">СО ЕЭС </p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Сбор и украшение ёлки
+              Промышленная мойка фасада и остекления
             </p>
           </div>
         </div>
