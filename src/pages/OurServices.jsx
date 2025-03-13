@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import chastnaya from "../assets/images/services/chastnaya.jpg";
+import chastnaya from "../assets/images/services/vovaVes.jpg";
 import fasad from "../assets/images/services/fasad.jpg";
 import mha from "../assets/images/services/mha.jpg";
 import sneg from "../assets/images/services/sneg.jpg";
@@ -27,14 +27,14 @@ const OurServices = () => {
             price: "от 20 руб/м²",
           },
           {
-            img: chastnaya,
+            img: fasad,
             title: "Частная мойка окон",
             description:
               "Предусматривает услуги по профессиональной очистке окон в жилых домах, квартирах и на дачах с учетом особенностей каждого объекта для обеспечения чистоты и комфорта.",
             price: "цена договорная",
           },
           {
-            img: fasad,
+            img: chastnaya,
             title: "Мойка фасада",
             description:
               "Осуществляется тщательная очистка наружных стен зданий от различных видов загрязнений с применением современных технологий для поддержания презентабельного внешнего вида.",
