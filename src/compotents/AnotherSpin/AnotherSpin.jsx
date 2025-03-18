@@ -101,7 +101,7 @@ const AnotherSpinMob = () => {
           <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
             <p className="font-bold text-xl">Wellton Towers</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Монтаж фонарей
+              Монтаж снегоуловителей
             </p>
           </div>
         </div>

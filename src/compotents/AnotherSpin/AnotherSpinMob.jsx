@@ -58,7 +58,7 @@ const AnotherSpin = () => {
           <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
             <p className="font-bold text-xl">Wellton Towers</p>
             <p className="text-md font-semibold text-wrap max-w-52">
-              Монтаж фонарей
+              Монтаж снегоуловителей
             </p>
           </div>
         </div>
