@@ -9,11 +9,11 @@ const BeforeAfterStatic = () => {
       </p>
       <div className="flex gap-5">
         <div className="flex flex-col gap-2 text-center">
-          <img className="rounded-md  " alt="daisy" src={after} />
+          <img className="rounded-md  " alt="daisy" src={before} />
           <p>До</p>
         </div>
         <div className="flex flex-col gap-2 text-center">
-          <img className="rounded-md  " alt="daisy" src={before} />
+          <img className="rounded-md  " alt="daisy" src={after} />
           <p>После</p>
         </div>
       </div>
