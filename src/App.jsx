@@ -14,9 +14,14 @@ const Succes = lazy(() => import("./pages/Succes"));
 const OurServices = lazy(() => import("./pages/OurServices"));
 
 const App = () => {
+
+
+
+
   return (
     <div>
       <Suspense>
+
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
