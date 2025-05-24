@@ -1,11 +1,11 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import iluha from "../../assets/images/team/Screenshot_2025_01_13_06_56_20_65_92460851df6f172a4592fca41cc2d2e6.jpg";
-import vova from "../../assets/images/team/IMG20250113114704.jpg";
-import dima from "../../assets/images/team/IMG20250113093837.jpg";
-import slava from "../../assets/images/team/IMG20250113114457.jpg";
-import timowa from "../../assets/images/team/IMG20250112110000.jpg";
+import iluha from "../../assets/images/team/iluhaComp.jpg";
+import vova from "../../assets/images/team/vovaDesk.jpg";
+import dima from "../../assets/images/team/dimaDesk.jpg";
+import slava from "../../assets/images/team/slavaDesk.jpg";
+import timowa from "../../assets/images/team/timoshaDesk.jpg";
 
 import Slider from "react-slick";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";

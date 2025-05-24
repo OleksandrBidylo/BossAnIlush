@@ -5,11 +5,12 @@ import s from "./Spin.module.css";
 import f2 from "../../assets/images/objects/chameleon.png";
 import f3 from "../../assets/images/objects/photo_2024-11-25_15-56-41.jpg";
 import f4 from "../../assets/images/objects/twins.png";
-import f5 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (3).jpg";
+import f5 from "../../assets/images/objects/skyhouse.jpg";
 import f6 from "../../assets/images/objects/photo_2024-11-25_15-56-42 (4).jpg";
 import f7 from "../../assets/images/objects/bcSam.png";
 import f8 from "../../assets/images/objects/salo.png";
 import f9 from "../../assets/images/objects/chrismasTree.png";
+import f12 from "../../assets/images/objects/cdmMob.jpg";
 import Slider from "react-slick";
 
 const AnotherSpin = () => {
@@ -104,6 +105,18 @@ const AnotherSpin = () => {
             <p className="font-bold text-xl">Ёлка в Чите</p>
             <p className="text-md font-semibold text-wrap max-w-52">
               Сбор и украшение ёлки
+            </p>
+          </div>
+        </div>
+        <div className="px-2">
+          <img
+            src={f12}
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
+          />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">ЦДМ </p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Промышленная мойка окон
             </p>
           </div>
         </div>

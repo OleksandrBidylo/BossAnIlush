@@ -9,7 +9,7 @@ import f4 from "../../assets/images/objects/twins.png";
 import f6 from "../../assets/images/objects/dom.png";
 import f7 from "../../assets/images/objects/bcSam.png";
 import f8 from "../../assets/images/objects/salo.png";
-
+import f12 from "../../assets/images/objects/cdmDesk.jpg";
 import zdanie from "../../assets/images/zdanie.webp";
 
 import Slider from "react-slick";
@@ -151,6 +151,18 @@ const AnotherSpinMob = () => {
             <p className="font-bold text-xl">СО ЕЭС </p>
             <p className="text-md font-semibold text-wrap max-w-52">
               Промышленная мойка фасада и остекления
+            </p>
+          </div>
+        </div>
+        <div className="px-2">
+          <img
+            src={f12}
+            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
+          />
+          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+            <p className="font-bold text-xl">ЦДМ </p>
+            <p className="text-md font-semibold text-wrap max-w-52">
+              Промышленная мойка окон
             </p>
           </div>
         </div>
