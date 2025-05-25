@@ -108,12 +108,9 @@ const AnotherSpin = () => {
             </p>
           </div>
         </div>
-        <div className="px-2">
-          <img
-            src={f12}
-            className="transition-transform transform duration-300 ease-in-out normalImg rounded-3xl relative"
-          />
-          <div className="  absolute bottom-3 ml-20 p-1 flex flex-col bgSpinText rounded-xl text-center  ">
+        <div className="">
+          <img src={f12} className={s.img} />
+          <div className="  absolute bottom-2 w-screen p-1 flex flex-col bgSpinText  text-start  ">
             <p className="font-bold text-xl">ЦДМ </p>
             <p className="text-md font-semibold text-wrap max-w-52">
               Промышленная мойка окон
